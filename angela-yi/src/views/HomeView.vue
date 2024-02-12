@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class ="cards">
         <DestCard
       v-for="supply in supplys"
       :key="supply.name"
@@ -10,9 +10,10 @@
 </template>
 
 <script setup>
+import DestCard from "@/components/DestCard.vue";
 const supplys = [
  {
-  name: "Nori",
+  name: "Nori(shredded)",
   img: "https://gimlifish.com/cdn/shop/products/noriseaweedwraps_530x@2x.jpg?v=1592063167",
  },
  {
@@ -22,10 +23,6 @@ const supplys = [
  {
   name: "avocado",
   img: "https://media.istockphoto.com/id/179301015/photo/close-up-of-fresh-ripe-avocado-slices-on-white-background.jpg?s=612x612&w=0&k=20&c=LSGBs32WzLdfwZ-zDyZ5ocU3GiwZxrMbk96thjm3Ykk=",
- },
- {
-  name: "crab meat",
-  img: "https://truefish.com/cdn/shop/products/imitation-crab-stick.jpg_s_1024x1024_w_is_k_20_c_8gDPayM0EjyzBtaMm9sTKe12EZc8G-dC7COrQHXCabw_300x300.jpg?v=1668544219",
  },
  {
   name: "Salmon",
