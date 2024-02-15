@@ -25,7 +25,31 @@ function decrement(){
 
 <style scoped>
 img {
-    height:40%;
-    width: 50%;
-    flex-direction: wrap;
-}</style>
+    width:  310px;
+    height: 260px;
+    object-fit: cover;
+}
+.card2 {
+    background-color: antiquewhite;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    margin-left:0vs;
+    width:70%;
+    padding-top:2vh;
+    padding-bottom: 2vh;
+    border-radius:5vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+
+}
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+}
+</style>

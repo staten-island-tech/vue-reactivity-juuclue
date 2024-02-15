@@ -238,3 +238,16 @@ const supplys = [
 
 ]
 </script>
+
+<style scoped>
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    width:150vh;
+}
+
+</style>
+<style scoped></style>
