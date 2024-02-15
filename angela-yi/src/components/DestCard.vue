@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class ="card2">
     <h2>{{ Supply.name }}</h2>
     <img :src="Supply.img" alt=""/>
     <h3>{{ clicked }}</h3>
@@ -22,3 +22,10 @@ function decrement(){
 }
 
 </script>
+
+<style scoped>
+img {
+    height:40%;
+    width: 50%;
+    flex-direction: wrap;
+}</style>

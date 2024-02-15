@@ -126,111 +126,111 @@ const supplys = [
  },
  {
   name: "House Poke sauce",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://s3-media0.fl.yelpcdn.com/bphoto/_AI2BubW0gUnmmIEe_2-tw/348s.jpg",
  },
  {
   name: "lemon ponzu",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://storage.googleapis.com/images-fol-prd-83dd8b8.fol.prd.v8.commerce.mi9cloud.com/product-images/zoom/4139002082.jpg",
  },
  {
   name: "spicy poke sauce",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.wholesomeyum.com/wp-content/uploads/2020/05/wholesomeyum-how-to-make-spicy-mayo-sriracha-mayo-recipe-5.jpg",
  },
  {
   name: "sesame shoyu",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://thedaintydot.files.wordpress.com/2013/05/shoyu-sauce1.jpg",
  },
  {
   name: "Spicy mayo",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.myforkinglife.com/wp-content/uploads/2023/07/spicy-mayonnaise-7230.jpg",
  },
  {
   name: "Sweet unagi sauce",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://m.media-amazon.com/images/I/61TcOqT1C1L._AC_UF894,1000_QL80_.jpg",
  },
  {
   name: "honey dijon sauce",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://thecozycook.com/wp-content/uploads/2020/12/Honey-Mustard.jpg",
  },
  {
   name: "Teriyaki sauce",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://whippeditup.com/wp-content/uploads/2022/08/Teriyaki-Sauce-featured-image.jpg",
  },
  {
   name: "cucumber",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.freshpoint.com/wp-content/uploads/2020/02/freshpoint-english-cucumber-scaled.jpg",
  },
  {
   name: "Edamame",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.acouplecooks.com/wp-content/uploads/2020/03/Shelled-Edamame-Recipe-006.jpg",
  },
  {
   name: "seaweed salad",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/02/14/GettyImages-638827388_edited_v2_s4x3.jpg.rend.hgtvcom.476.357.suffix/1644859622869.jpeg",
  },
  {
   name: "Cherry tomatoes",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://upload.wikimedia.org/wikipedia/commons/1/10/Tomates_cerises_Luc_Viatour.jpg",
  },
  {
   name: "Chopped Mango",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.simplyrecipes.com/thmb/9BCqeWiMi-kS-IDShk1coPpaWWc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-How-to-Cut-Mango-Lead-1-4c02b096512b447ba0ff264f27c66366-4-ff063ebab2af414d8f998137a67d5a23.jpg",
  },
  {
   name: "Sweet Ginger",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://thesourcebulkfoods.ie/cdn/shop/products/200901_460x@2x.jpg?v=1638040238",
  },
  {
   name: "Masago",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.marxfoods.com/images/masago-capelin-roe_Masago-1.jpg?resizeid=14&resizeh=600&resizew=600",
  },
  {
   name: "Spicy Crab Salad",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
  {
   name: "Radish",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://t4.ftcdn.net/jpg/01/07/65/43/360_F_107654340_7KId1RCjULlyaPAgQrTGvvNwg8E9k2mh.jpg",
  },
  {
   name: "Pineapple",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://houseofnasheats.com/wp-content/uploads/2022/11/How-to-Cut-A-Pineapple-Square-4.jpg",
  },
  {
   name: "Wasabi",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://i5.walmartimages.com/seo/Kikkoman-Wasabi-Sauce-9-25-oz_15da6467-4d20-45f0-8e92-f2aa993f0767_2.5ea71cd1fd2ebb91eb64e6c11662d8ae.jpeg",
  },
  {
   name: "garlic crisps",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.justonecookbook.com/wp-content/uploads/2023/05/How-to-Make-Garlic-Chips-9900-I-1-500x375.jpg",
  },
  {
   name: "double avocado",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://media.istockphoto.com/id/179301015/photo/close-up-of-fresh-ripe-avocado-slices-on-white-background.jpg?s=612x612&w=0&k=20&c=LSGBs32WzLdfwZ-zDyZ5ocU3GiwZxrMbk96thjm3Ykk=",
  },
  {
   name: "sesame mix",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://www.thepeppermillinc.com/wp-content/uploads/2021/06/H136-tuxedo-blend-white-black-sesame-seeds-main.jpg",
  },
  {
   name: "onion crisps",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://res.cloudinary.com/perkchops/image/upload/v1611947432/ingredients/2021029/ooipvtfzlnvkobzbr41s.png",
  },
  {
   name: "Wonton crisps",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://assets.syndigo.cloud/cdn/8602923c-9931-4581-b249-563aa2718893/fileType_jpeg;size_600x600/00787359175077_C3CC.jpg",
  },
  {
   name: "Purple cabbage",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://static.squarespace.com/static/537e3f1fe4b0a67f78e926bb/5383a006e4b0d7dd6b3fb42c/5383a007e4b0d7dd6b3fb5c3/1368025944000/redcabbage.jpg?format=original",
  },
  {
   name: "Wasabi Aiolio",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRW0u6Nm3Aerk9pTuo1oFW5rXa3dzKAkisXbVJypv5lfCq4IgXuE_3nijBMBYWrm1jilpyOZw1e3d1hm3IS8D2YGabxpRjxCQEZNYLg5YiEBQLmHvabu2uY&usqp=CAE",
  },
  {
   name: "crab salad",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
 
  
