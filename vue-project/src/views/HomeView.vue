@@ -1,6 +1,5 @@
-
 <template>
-  <div class ="cards">
+  <div class="cards">
         <card2
       v-for="supply in supplys"
       :key="supply.name"
@@ -9,12 +8,14 @@
   </div>
 </template>
 
+
 <script setup>
-import card2 from "@/components/DestCard.vue";
+import card2 from "@/components/poke.vue";
+
 const supplys = [
  {
   name: "Nori(shredded)",
-  img: "https://gimlifish.com/cdn/shop/products/noriseaweedwraps_530x@2x.jpg?v=1592063167",
+  img: "https://thumb.photo-ac.com/fe/fe26894cfcf8dc68ad5fe4a320776590_t.jpeg",
  },
  {
   name: "sushi rice",
@@ -22,15 +23,15 @@ const supplys = [
  },
  {
   name: "avocado",
-  img: "https://media.istockphoto.com/id/179301015/photo/close-up-of-fresh-ripe-avocado-slices-on-white-background.jpg?s=612x612&w=0&k=20&c=LSGBs32WzLdfwZ-zDyZ5ocU3GiwZxrMbk96thjm3Ykk=",
+  img: "https://cdn.britannica.com/72/170772-050-D52BF8C2/Avocado-fruits.jpg",
  },
  {
   name: "Salmon",
-  img: "https://umamicart.com/cdn/shop/products/salmon-sashimi_grande.png?v=1692355095",
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsC9q6Z_xzAOD2-yJHPQPpl-kzAP9u8XU0NA&usqp=CAU",
  },
  {
   name: "Tuna",
-  img: "https://wagyuman.com/cdn/shop/products/wagyuman-seafood-1-5-lbs-24-0-oz-chutoro-blue-fin-tuna-16487795294305_1200x1200.jpg?v=1627998293",
+  img: "https://images.squarespace-cdn.com/content/v1/563cf214e4b021af1b575f8a/1454031297704-UMP30MTJLPQWYIIC5BKR/Fresh-tuna-cut-in-chunks.jpg",
  },
  {
   name: "Cucumber",
@@ -38,7 +39,7 @@ const supplys = [
  },
  {
   name: "Roe",
-  img: "https://www.markys.com/media/catalog/product/cache/b0d56cdde5a8ef6c30b52cc73236630f/0/1/014202-01_v0ec04odvsbf18ed.jpg",
+  img: "https://images.squarespace-cdn.com/content/v1/60a425bbe7e1d63a61047778/1623882614835-5APUUAQBY7SNWV3Y0EL8/Trout+Roe.jpg?format=1500w",
  },
  {
   name: "Soba noodles",
@@ -66,7 +67,7 @@ const supplys = [
  },
  {
   name: "Spicy salmon",
-  img: "https://www.tastingtable.com/img/gallery/spicy-honey-glazed-salmon-recipe/l-intro-1644519469.jpg",
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsC9q6Z_xzAOD2-yJHPQPpl-kzAP9u8XU0NA&usqp=CAU",
  },
  {
   name: "Shrimp",
@@ -74,15 +75,15 @@ const supplys = [
  },
  {
   name: "chicken",
-  img: "https://www.foodservicedirect.com/media/catalog/product/1/0/10038034052495_2.jpg?width=1200&height=1200&quality=85&fit=bounds",
+  img: "https://bakingmischief.com/wp-content/uploads/2018/01/how-to-cook-chicken-breasts-image-square-2.jpg",
  },
  {
   name: "organic tofu",
-  img: "https://hurrythefoodup.com/wp-content/uploads/2021/12/sesame-tofu-vegan-poke-bowl-in-progress.jpg",
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8FKbTmhX6qZrArSzE_FddDnSnHSQoqU7I9sRw7mWCFAsH7Uy-Mzix8UoyhL0ORO2HOQ0&usqp=CAU",
  },
  {
   name: "yellowtail",
-  img: "https://thetopmeal.com/wp-content/uploads/2022/11/hamachi-poke-3.jpg",
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj7OKV3WmpOU3k6aPjWk1es2orwLcrgMMOBgjKPF5BmacfJelQDJKdlIKwV4qX1OrEAP8&usqp=CAU",
  },
  {
   name: "Unagi(EEL)",
@@ -232,12 +233,9 @@ const supplys = [
   name: "crab salad",
   img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
-
- 
-
-
 ]
 </script>
+
 
 <style scoped>
 .cards{
@@ -245,9 +243,11 @@ const supplys = [
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-content:center;
-    width:150vh;
+    align-content: center;
+    width: 50vh;
 }
 
+
 </style>
-<style scoped></style>
+
+
