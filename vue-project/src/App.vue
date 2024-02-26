@@ -5,13 +5,13 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div>
+<!--     <div>
       <nav>
         <RouterLink to="/">Ingredients</RouterLink>
         //
         <RouterLink to="/bowl">your bowl</RouterLink>
       </nav>
-    </div>
+    </div> -->
   </header>
 
   <RouterView />
