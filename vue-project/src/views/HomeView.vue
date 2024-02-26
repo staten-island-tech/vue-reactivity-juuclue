@@ -6,11 +6,17 @@
       :Supply="supply"
     />
   </div>
+  <div>
+    <button @click="navigateToBowl"> Your Bowl</button>
+  </div>
 </template>
 
 
 <script setup>
 import card2 from "@/components/poke.vue";
+/* function navigateToBowl(){
+  this.$router.push({ name: 'Bowl', params: { data: this.data}});
+} */
 
 const supplys = [
  {

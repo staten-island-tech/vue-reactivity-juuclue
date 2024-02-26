@@ -3,21 +3,34 @@
     <h2>{{ Supply.name }}</h2>
     <img :src="Supply.img" alt=""/>
     <!-- <h3>{{ clicked }}</h3> -->
-    <button>Add to Bowl</button>
+    <button @click="addToBowl()">Add to Bowl</button>
 <!--     <button @click="decrement"> - </button>
     <button @click="increment"> + </button> -->
     </div>
+    
 </template>
 
 <script setup>
-import { ref } from "vue";
+
+import { defineProps } from 'vue';
+ 
 const props = defineProps({
     Supply: Object,
 });
+const bowl=[];
+function addToBowl(){
+    bowl.push(       
+    `<div class="cards">
+    <h2>${props.Supply.name}</h2>
+    <img :src="${props.Supply.img}" alt=""/>
+    </div>`
+    )
+    console.log(bowl)
 
-/* const bowl=[]
-addtoBowl(Supply);
-bowl.push(Supply) */
+} 
+
+
+
 /* let clicked = ref(0);
 function increment(){
     clicked.value++;
