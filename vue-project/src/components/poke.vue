@@ -19,15 +19,18 @@ const props = defineProps({
 });
 const bowl=[];
 function addToBowl(){
-    bowl.push(       
-    `<div class="cards">
-    <h2>${props.Supply.name}</h2>
-    <img :src="${props.Supply.img}" alt=""/>
-    </div>`
+    bowl.push({
+        name: props.Supply.name,
+        img: props.Supply.img
+    }       
+    
+    
     )
     console.log(bowl)
 
+    
 } 
+
 
 
 

@@ -1,4 +1,6 @@
-<template>
+<template vif >
+  
+
   <div class="cards">
         <card2
       v-for="supply in supplys"
@@ -9,6 +11,7 @@
   <div>
     <button @click="navigateToBowl"> Your Bowl</button>
   </div>
+
 </template>
 
 
@@ -17,6 +20,8 @@ import card2 from "@/components/poke.vue";
 /* function navigateToBowl(){
   this.$router.push({ name: 'Bowl', params: { data: this.data}});
 } */
+isingredient = true;
+isingredient = false
 
 const supplys = [
  {
@@ -240,6 +245,7 @@ const supplys = [
   img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
 ]
+console.log(supplys);
 </script>
 
 
