@@ -46,10 +46,14 @@ console.log(bowl);
 <script setup>
 
   import { data } from '@/stores/store.js';
-  import {ref} from 'vue';
+
   const props = defineProps({
     bowl: Array
+  
   })
+ function remove(){
+  stuff='';
+ }
 </script>
 <style scoped>
 .body2{
