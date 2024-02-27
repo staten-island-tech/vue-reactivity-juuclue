@@ -7,6 +7,7 @@
       :key="supply.name"
       :Supply="supply"
     />
+    <bowl :bowl="bowl"/>
   </div>
   
   <div>
@@ -19,6 +20,7 @@
 <script setup>
 
 import poke from "@/components/poke.vue";
+import bowl from "@/components/bowl.vue";
 /* function navigateToBowl(){
   this.$router.push({ name: 'Bowl', params: { data: this.data}});
 } */

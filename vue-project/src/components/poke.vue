@@ -3,15 +3,15 @@
     <h2>{{ Supply.name }}</h2>
     <img :src="Supply.img" alt=""/>
 
-    <button @click="addToBowl()" class="button">Add to Bowl</button>
+    <button @click="addToBowl(Supply)" class="button">Add to Bowl</button>
 
     </div>
     
 </template>
 
 <script setup>
-import { data } from '@/stores/counter.js'
-import { defineProps } from 'vue';
+import { data } from '@/stores/store.js'
+
  
 const props = defineProps({
     Supply: Object,
@@ -69,7 +69,9 @@ img {
     text-align: center;
 }
 .button{
-    background-color:pink;
+    background-color:beige;
+    border:3px solid rgb(102, 94, 86);
+    border-radius:5px
 }
 </style >
 
