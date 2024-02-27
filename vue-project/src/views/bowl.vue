@@ -26,3 +26,24 @@ console.log(bowl);
   }
 }
 </style> -->
+<template>
+  <div class="shopping">
+    <div v-if="data.bowl.length === 0">
+      <p>Make your Bowl!</p>
+    </div>
+    <div v-else>
+      <div v-for="(stuff) in data.bowl" :key="stuff.name" class="stuff">
+        <h2>{{ stuff.name }}</h2>
+        <img :src="stuff.img" alt=""/>
+      </div>
+    </div>
+  </div>
+</template>
+<script setup>
+  import {defineProps} from 'vue';
+  import { data } from 'vue';
+  import {ref} from 'vue';
+  const props = defineProps({
+    bowl: Array
+  })
+</script>

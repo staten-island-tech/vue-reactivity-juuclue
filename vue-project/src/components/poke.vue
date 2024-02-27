@@ -2,22 +2,24 @@
     <div class="card2">
     <h2>{{ Supply.name }}</h2>
     <img :src="Supply.img" alt=""/>
-    <!-- <h3>{{ clicked }}</h3> -->
-    <button @click="addToBowl()">Add to Bowl</button>
-<!--     <button @click="decrement"> - </button>
-    <button @click="increment"> + </button> -->
+
+    <button @click="addToBowl()" class="button">Add to Bowl</button>
+
     </div>
     
 </template>
 
 <script setup>
-
+import { data } from '@/stores/counter.js'
 import { defineProps } from 'vue';
  
 const props = defineProps({
     Supply: Object,
 });
-const bowl=[];
+const addToBowl = function (product){
+    data.bowl.push(product)
+}
+/* const bowl=[];
 function addToBowl(){
     bowl.push({
         name: props.Supply.name,
@@ -29,7 +31,7 @@ function addToBowl(){
     console.log(bowl)
 
     
-} 
+}  */
 
 
 
@@ -40,9 +42,11 @@ function increment(){
 }
 function decrement(){
     clicked.value--;
-} */
+}
+    <!-- <h3>{{ clicked }}</h3> --> */
 
-
+/*  <button @click="decrement"> - </button>
+    <button @click="increment"> + </button> */
 </script>
 
 
@@ -63,6 +67,9 @@ img {
     padding-bottom: 2vh;
     border-radius:5vh;
     text-align: center;
+}
+.button{
+    background-color:pink;
 }
 </style >
 

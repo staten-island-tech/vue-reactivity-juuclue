@@ -2,12 +2,11 @@
   
 
   <div class="cards">
-        <card2
+        <poke
       v-for="supply in supplys"
       :key="supply.name"
       :Supply="supply"
     />
-    <bowl :your="your"/>
   </div>
   
   <div>
@@ -19,7 +18,7 @@
 
 <script setup>
 
-import card2 from "@/components/poke.vue";
+import poke from "@/components/poke.vue";
 /* function navigateToBowl(){
   this.$router.push({ name: 'Bowl', params: { data: this.data}});
 } */
@@ -247,7 +246,7 @@ const supplys = [
   img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
 ]
-console.log(supplys);
+
 </script>
 
 
