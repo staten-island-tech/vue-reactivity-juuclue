@@ -1,27 +1,35 @@
-<template vif >
+<template>
   
 
   <div class="cards">
-        <card2
+        <poke
       v-for="supply in supplys"
       :key="supply.name"
       :Supply="supply"
     />
+    <bowl :bowl="bowl"/>
   </div>
+  
   <div>
-    <button @click="navigateToBowl"> Your Bowl</button>
+
   </div>
 
 </template>
 
 
 <script setup>
-import card2 from "@/components/poke.vue";
+
+import poke from "@/components/poke.vue";
+import bowl from "@/components/bowl.vue";
 /* function navigateToBowl(){
   this.$router.push({ name: 'Bowl', params: { data: this.data}});
 } */
+<<<<<<< HEAD
 /* isingredient = true;
 isingredient = false */
+=======
+
+>>>>>>> ea44ca85e8991c26af873d5838d5ca21d8065b09
 
 const supplys = [
  {
@@ -245,7 +253,7 @@ const supplys = [
   img: "https://toasttohome.com/wp-content/uploads/2022/03/How-to-make-kani-salad-768x1024.jpg",
  },
 ]
-console.log(supplys);
+
 </script>
 
 
@@ -257,6 +265,7 @@ console.log(supplys);
     justify-content: space-around;
     align-content: center;
     width: 50vh;
+    border: 3px solid black;
 }
 
 
