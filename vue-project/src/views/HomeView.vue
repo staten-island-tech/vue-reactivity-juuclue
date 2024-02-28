@@ -254,6 +254,7 @@ const supplys = [
     align-content: center;
     width: 50vh;
     border: 3px solid black;
+    width:75%;
 }
 
 

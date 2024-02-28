@@ -20,19 +20,7 @@ const addToBowl = function (product){
     data.bowl.push(product)
     console.log(data.bowl)
 }
-/* const bowl=[];
-function addToBowl(){
-    bowl.push({
-        name: props.Supply.name,
-        img: props.Supply.img
-    }       
-    
-    
-    )
-    console.log(bowl)
 
-    
-}  */
 
 
 
@@ -63,12 +51,13 @@ img {
     margin-top:5vh;
     margin-bottom: 2vh;
     margin-left:0vs;
-    width:70%;
+    width:15%;
     padding-top:2vh;
     padding-bottom: 2vh;
     border-radius:5vh;
     text-align: center;
     border: 3px solid black;
+    
 }
 .button{
     background-color:beige;
