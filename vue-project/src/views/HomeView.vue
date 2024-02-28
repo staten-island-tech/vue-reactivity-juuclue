@@ -260,6 +260,7 @@ const supplys = [
     justify-content: space-around;
     align-content: center;
     width: 50vh;
+    border: 3px solid black;
 }
 
 

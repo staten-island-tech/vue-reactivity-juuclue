@@ -54,7 +54,7 @@ console.log(bowl);
  function remove(supply){
    const bowlIndex = data.bowl.indexOf(supply);
    data.bowl.splice(bowlIndex, 1);
-   console.log(data.bowl);
+   console.log(data.bowl); 
  }
 </script>
 <style scoped>
@@ -67,6 +67,7 @@ console.log(bowl);
   text-align:center;
   align-items: center;
   justify-content: space-around;
+  border:3px solid black;
 
 }
 .img{

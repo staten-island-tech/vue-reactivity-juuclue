@@ -68,6 +68,7 @@ img {
     padding-bottom: 2vh;
     border-radius:5vh;
     text-align: center;
+    border: 3px solid black;
 }
 .button{
     background-color:beige;
