@@ -18,6 +18,7 @@ const props = defineProps({
 });
 const addToBowl = function (product){
     data.bowl.push(product)
+    console.log(data.bowl)
 }
 /* const bowl=[];
 function addToBowl(){

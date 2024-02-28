@@ -37,22 +37,24 @@ console.log(bowl);
       <div v-for="(Supply) in data.bowl" :key="Supply.name" class="stuff">
         <h2>{{ Supply.name }}</h2>
         <img :src="Supply.img" alt="" class="img"/>
-        <button class="remove" @click="remove()">remove</button>
+        <button class="remove" @click="remove(Supply)">remove</button>
       </div>
     </div>
   </div>
 </div>
 </template>
 <script setup>
-
+  
   import { data } from '@/stores/store.js';
 
   const props = defineProps({
     bowl: Array
   
   })
- function remove(){
-  stuff='';
+ function remove(supply){
+   const bowlIndex = data.bowl.indexOf(supply);
+   data.bowl.splice(bowlIndex, 1);
+   console.log(data.bowl);
  }
 </script>
 <style scoped>
@@ -74,5 +76,10 @@ console.log(bowl);
     border:5px solid rgb(103, 86, 86);
     border-radius:5px;
 
+}
+.remove{
+  background-color:rgb(159, 140, 140);
+  border:5px solid rgb(230, 213, 191);
+  border-radius:5px;
 }
 </style>
