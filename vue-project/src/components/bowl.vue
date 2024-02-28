@@ -60,7 +60,7 @@ console.log(bowl);
 <style scoped>
 .body2{
   background-color:beige;
-  width:35%;
+  width:25%;
   position:absolute;
   top:0; right:0;
   height: 889vh;
