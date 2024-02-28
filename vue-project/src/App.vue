@@ -7,9 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
 <!--     <div>
       <nav>
-<!--         <RouterLink to="/">Ingredients</RouterLink>
+        <RouterLink to="/">Ingredients</RouterLink>
         //
-        <RouterLink to="/bowl">your bowl</RouterLink> -->
+        <RouterLink to="/bowl">your bowl</RouterLink>
       </nav>
     </div> -->
   </header>
